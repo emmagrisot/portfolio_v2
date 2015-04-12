@@ -1,0 +1,150 @@
+body {
+  background: black;
+  margin: 0;
+  background: url(../../img/back.jpg) no-repeat fixed;
+  background-size: 100%; }
+  body nav {
+    font-family: "Montserrat", sans-serif;
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 100%;
+    background: url(../../img/back.jpg) no-repeat fixed;
+    height: 76px;
+    position: fixed;
+    background-size: 100%;
+    text-align: center; }
+    body nav ul {
+      padding-left: 0;
+      display: inline-block; }
+      body nav ul li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 0 30px;
+        list-style-type: none; }
+        body nav ul li a {
+          text-decoration: none;
+          color: #E6E6E6;
+          font-size: 18px;
+          font-weight: lighter;
+          letter-spacing: 4px;
+          transition: 0.3s all ease; }
+        body nav ul li a:hover {
+          transition: 0.3s all ease;
+          color: #7AC4B8; }
+      body nav ul .select {
+        color: #7AC4B8;
+        height: 30px;
+        font-size: 18px;
+        font-weight: lighter;
+        letter-spacing: 4px; }
+    body nav img {
+      width: 400px;
+      margin: 0 auto;
+      display: block; }
+  body #content {
+    padding: 20px;
+    padding-top: 140px; }
+    body #content h1, body #content p {
+      color: #E6E6E6;
+      text-align: justify;
+      width: 285px;
+      margin: 0 auto; }
+    body #content h1 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: normal;
+      letter-spacing: 8px;
+      font-size: 47px;
+      border-bottom: 5px solid #E6E6E6; }
+    body #content p {
+      font-family: "Roboto Slab", serif;
+      font-size: 16px;
+      margin-top: 7px; }
+  body article {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    padding: 40px;
+    margin-bottom: 60px; }
+    body article img {
+      width: 700px;
+      float: left;
+      padding-right: 40px; }
+    body article h2 {
+      color: #E6E6E6;
+      margin: 0;
+      font-size: 35px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: normal;
+      letter-spacing: 5px; }
+    body article hr {
+      background: #E6E6E6;
+      height: 4px;
+      border: none;
+      margin-top: 10px; }
+    body article p {
+      font-family: "Roboto Slab", serif;
+      font-size: 16px;
+      margin-top: 7px;
+      color: #E6E6E6;
+      padding-top: 30px;
+      text-align: justify;
+      padding-bottom: 15%; }
+      body article p a {
+        color: #7AC4B8;
+        text-decoration: none; }
+    body article h3 {
+      color: #E6E6E6;
+      font-family: "Montserrat", sans-serif;
+      font-weight: normal;
+      width: 100%;
+      padding-top: 25px;
+      margin: 0 auto;
+      text-align: center;
+      letter-spacing: 3px; }
+    body article iframe {
+      display: block;
+      margin: 0 auto;
+      padding-top: 30px; }
+    body article .video {
+      width: 700px;
+      margin: 0 auto;
+      padding-top: 10px;
+      padding-bottom: 40px; }
+    body article .icones {
+      width: 900px;
+      margin: 20px auto;
+      padding-bottom: 160px; }
+      body article .icones img {
+        width: 130px;
+        padding: 25px; }
+  body article:nth-child(even) img {
+    width: 600px;
+    float: right;
+    margin-left: 40px;
+    padding-right: 0;
+    margin-bottom: 60px; }
+  body article:nth-child(even) p {
+    margin-bottom: 350px; }
+  body article:nth-child(6) img {
+    height: 750px;
+    width: auto; }
+  body article:nth-child(7) {
+    margin-top: 0;
+    padding-top: 0; }
+    body article:nth-child(7) h2, body article:nth-child(7) hr, body article:nth-child(7) p {
+      width: 700px;
+      margin: 0 auto; }
+    body article:nth-child(7) h2 {
+      text-align: center; }
+    body article:nth-child(7) p {
+      padding-bottom: 30px; }
+  body footer {
+    color: #48736C;
+    font-family: "Roboto Slab", serif;
+    font-size: 12px;
+    width: 100%;
+    text-align: center; }
+    body footer p {
+      margin-bottom: 9px; }
+
+/*# sourceMappingURL=work.css.map */
