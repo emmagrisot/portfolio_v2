@@ -37,7 +37,7 @@
 	// @see http://flesler.demos.com/jquery/scrollTo/
 	// The defaults are public and can be overriden.
 	$localScroll.defaults = {
-		duration:600, // How long to animate.
+		duration: 600, // How long to animate.
 		axis:'y', // Which of top and left should be modified.
 		event:'click', // On which event to react.
 		stop:true, // Avoid queuing animations 

@@ -1,0 +1,99 @@
+body #projet {
+  height: 2453px; }
+  body #projet .container {
+    width: 342px; }
+  body #projet .photos {
+    width: 420px;
+    display: block;
+    margin: 0 auto; }
+    body #projet .photos img {
+      width: 97%;
+      padding: 10px; }
+    body #projet .photos .hid {
+      display: none; }
+  body #projet .block-text {
+    margin-top: 0px;
+    padding-left: 0; }
+body #first .logo {
+  width: 48%;
+  display: block;
+  margin: 80px auto;
+  margin-bottom: 27px; }
+body #first .fleche {
+  display: none; }
+body #propos .me {
+  display: none; }
+body #propos .content hr {
+  width: 88%; }
+body #propos .content p {
+  letter-spacing: 1px;
+  width: 88%;
+  text-align: justify;
+  line-height: 23px;
+  margin-bottom: 70px; }
+body #projet {
+  display: block;
+  margin-top: -23px; }
+  body #projet .content2, body #projet .content3 {
+    margin: 0 auto;
+    display: block;
+    width: 500px; }
+    body #projet .content2 h1, body #projet .content3 h1 {
+      letter-spacing: 6px;
+      font-size: 34px;
+      padding-top: 80px;
+      text-align: center;
+      color: white;
+      font-weight: lighter;
+      width: 360px;
+      margin: 0 auto; }
+    body #projet .content2 hr, body #projet .content3 hr {
+      width: 88%;
+      margin: 10px auto;
+      padding-top: 0; }
+  body #projet #content3 {
+    padding-top: 150px; }
+  body #projet #photos {
+    display: block;
+    margin: 0 auto; }
+    body #projet #photos img {
+      width: 97%;
+      padding: 10px; }
+    body #projet #photos .hid {
+      display: none; }
+  body #projet .container {
+    width: 342px; }
+body #footer {
+  height: 130px;
+  display: block;
+  margin: 0 auto; }
+  body #footer .contentfooter {
+    width: 100%;
+    margin: 0 auto; }
+  body #footer .contact {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 20px;
+    padding: 20px 0 0 0;
+    margin-bottom: 0;
+    width: 132px;
+    margin: 0 auto;
+    display: block; }
+  body #footer .infocontact {
+    color: white;
+    width: 282px;
+    display: block;
+    margin: 0 auto; }
+  body #footer img {
+    height: 20px;
+    padding: 10px 20px 0 20px;
+    position: relative;
+    top: 4px; }
+  body #footer a, body #footer p {
+    text-decoration: none;
+    color: white;
+    padding-right: 30px; }
+  body #footer p {
+    padding-right: 0; }
+
+/*# sourceMappingURL=style-mobile3.css.map */

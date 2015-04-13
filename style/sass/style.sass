@@ -1,84 +1,366 @@
-$bleuf: #48736C
-$bleuc: #7AC4B8
-$beige: #C4BC98
-$craie: #E6E6E6
-$mont : 'Montserrat', sans-serif
-$roboto: 'Roboto Slab', serif
-
-
-
+$mauve: #F4D9FF
+$rose: #932F6D 
+$bordeaux: #861657 
+$bleuclair: #CEC2FF 
+$bleu: #1C5983 
+$beige: #EEE6DC
+$bleufonce: #0C3550
+$raleway: 'Raleway', sans-serif
+//980
 
 body
-	background: black 
-	margin: 0
-	background: url(../../img/back.jpg) no-repeat fixed
-	background-size: 100%
-
-
 	
-	nav
-		font-family: $mont
-		padding-top: 30px
-		margin: 0 auto
-		width: 100%
-		background: url(../../img/back.jpg) no-repeat fixed
-		height: 76px
-		position: fixed
-		background-size: 100%
-		text-align: center
+	background: url(../../img/bg-5.png) fixed no-repeat
+	background-size: 100%
+	width: 100%
+	margin: 0 
+	font-family: $raleway
 
+	#first
 		ul
-			padding-left: 0
-			display: inline-block
+			position: absolute
+			top: 0
+			right: 8%
 
-			li
-				text-decoration: none
-				display: inline-block
-				padding: 0 30px 
+
+			li 
+				color: white
 				list-style-type: none
-
-				a 
-					text-decoration: none
-					color: $craie
-					font-size: 18px
-					font-weight: lighter
-					letter-spacing: 4px
-					transition: 0.3s all ease
-
-				
-				a:hover
-					transition: 0.3s all ease
-					color: $bleuc
-
-			.select
-				color: $bleuc
-				height: 30px
+				display: inline-block
+				padding: 20px 20px
 				font-size: 18px
-				font-weight: lighter
-				letter-spacing: 4px
 
-		img
-			width: 400px
+				a
+					text-decoration: none
+					color: white
+					transition: all 0.5s ease
+
+				a:hover
+					transition: all 0.3s ease
+					color: $mauve
+					border-bottom: 2.5px solid $mauve
+					padding-bottom: 5px
+
+		.logo
+			width: 30%
+			display: block
+			margin: 80px auto
+
+		.fleche
+			width: 50px
+			display: block
+			margin: 120px auto 80px auto
+
+	#propos
+		height: 600px
+		background: $beige
+		top: 400px
+
+		.me
+			width: 450px
+			float: right
+			position: absolute
+			right: 0
+		
+		.content
+			padding: 100px 0 0 12%
+
+			h1
+				letter-spacing: 6px
+				font-size: 34px
+				padding-left: 2px
+			hr
+				border: solid 2px $bordeaux
+				width: 497px
+				margin-left: 0
+				margin-bottom: 30px
+				padding-top: 0
+			p
+				letter-spacing: 1px
+				width: 500px
+				text-align: justify
+				line-height: 23px
+				margin-bottom: 70px
+
+			a
+				text-decoration: none
+				color: $bordeaux
+				transition: all 0.5s ease
+				border: 2px solid $bordeaux
+				border-radius: 10px
+				padding: 10px 25px
+				letter-spacing: 1px
+				font-weight: bolder
+
+
+			a:hover
+				transition: all 0.3s ease
+				background: $bordeaux
+				color: white
+
+	#projet
+		height: 1910px
+		background: $bleu
+		display: block
+		margin-top: -23px
+
+		.main
+			padding-bottom: 200px
+
+		.content2, .content3
 			margin: 0 auto
 			display: block
+			width: 500px
 
-	.home
-		padding-top: 120px
-		width: 800px
-		margin: 0 auto
+			h1
+				letter-spacing: 6px
+				font-size: 34px
+				padding-top: 80px
+				text-align: center
+				color: white
+				font-weight: lighter
+			hr
+				border: solid 2px $beige
+				width: 497px
+				margin-left: 0
+				margin-bottom: 30px
+				padding-top: 0
+
+		.content3
+			padding-top: 368px
+
+		
+		#photos
+			width: 800px
+			display: block
+			margin: 0 auto
+
+			img
+				width: 47%
+				padding: 10px
+
+		
+		.container
+			margin: 0 auto
+			display: block
+			width: 1020px
+			padding-bottom: 100px
+
+		.block-text
+			display: block
+			width: 380px
+			margin: 0 auto
+			margin-top: -596px
+			color: $beige
+			text-align: justify
+			letter-spacing: 1px
+			line-height: 23px
+			padding-left: 402px
+
+			a
+				text-align: center
+				text-decoration: none
+				color: $beige
+				transition: all 0.5s ease
+				border: 2px solid $beige
+				border-radius: 10px
+				padding: 10px 25px
+				letter-spacing: 1px
+				margin-left: 97px
+
+
+			a:hover
+				transition: all 0.3s ease
+				background: $beige
+				color: $bleu
+	#footer
+		height: 70px
+		background: $bleufonce
 		display: block
+		
 
-	footer
-		bottom: 0
-		position: absolute
-		color: $bleuf
-		font-family: $roboto
-		font-size: 12px
-		width: 100%
-		text-align: center
+		.contentfooter
+			display: block
+			width: 720px
+			margin: 0 auto
+
+		.contact
+			color: white
+			letter-spacing: 5px
+			font-size: 20px
+			padding: 7px 80px 0 0
+			display: inline-block
+			margin-bottom: 0
+		
+		.infocontact
+			display: inline-block
+			color: white
+
+		img
+			display: inline-block
+			height: 20px
+			padding: 10px 20px 0 20px
+			position: relative
+			top: 4px
+
+		a, p
+			text-decoration: none
+			color: white
+			padding-right: 30px
+			display: inline-block
 
 		p
-			margin-bottom: 9px
+			padding-right: 0
+
+
+@media all and (max-width: 1000px)
+	body
+		#projet
+			height: 2130px
+			.container
+				width: 680px
+
+@media all and (max-width: 800px)
+	body
+		#projet
+			height: 2500px
+			.container
+				width: 342px
+		#propos
+			.me
+				display: none
+
+			#photos
+				width: 420px
+				display: block
+				margin: 0 auto
+
+				img
+					width: 97%
+					padding: 10px
+
+				.hid
+					display: none
+				
+
+			.block-text
+				margin-top: 0px
+				padding-left: 0
+
+
+@media all and (max-width: 700px)
+
+	body
+
+		#first
+			.logo
+				width: 48%
+				display: block
+				margin: 80px auto 
+				margin-bottom: 27px
+
+			.fleche
+				display: none
+
+			.content
+				hr
+					width: 88%
+				p
+					letter-spacing: 1px
+					width: 88%
+					text-align: justify
+					line-height: 23px
+					margin-bottom: 70px
+
+		#projet
+			display: block
+			margin-top: -23px
+			height: 2453px
+
+			.content2, .content3
+				margin: 0 auto
+				display: block
+				width: 500px
+
+				h1
+					letter-spacing: 6px
+					font-size: 34px
+					padding-top: 80px
+					text-align: center
+					color: white
+					font-weight: lighter
+					width: 360px
+					margin: 0 auto
+				hr
+					width: 88%
+					margin: 10px auto
+					padding-top: 0
+
+			#content3
+				padding-top: 150px
+				
+			#photos
+				display: block
+				margin: 0 auto
+				width: 420px
+				display: block
+				margin: 0 auto
+
+				img
+					width: 97%
+					padding: 10px
+
+				.hid
+					display: none
+
+			.block-text
+				margin-top: 0px
+				padding-left: 0
+
+			
+			.container
+				width: 342px
+		
+
+		#footer
+			height: 130px
+			display: block
+			margin: 0 auto
+			
+
+			.contentfooter
+				width: 100%
+				margin: 0 auto
+
+			.contact
+				color: white
+				letter-spacing: 5px
+				font-size: 20px
+				padding: 20px 0 0 0
+				margin-bottom: 0
+				width: 132px
+				margin: 0 auto
+				display: block
+			
+			.infocontact
+				color: white
+				width: 282px
+				display: block
+				margin: 0 auto
+
+			img
+				height: 20px
+				padding: 10px 20px 0 20px
+				position: relative
+				top: 4px
+
+			a, p
+				text-decoration: none
+				color: white
+				padding-right: 30px
+
+			p
+				padding-right: 0
 
 
 

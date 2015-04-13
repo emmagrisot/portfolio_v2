@@ -1,0 +1,16 @@
+body #projet {
+  height: 2500px; }
+  body #projet #photos {
+    width: 420px;
+    display: block;
+    margin: 0 auto; }
+    body #projet #photos img {
+      width: 97%;
+      padding: 10px; }
+    body #projet #photos .hid {
+      display: none; }
+  body #projet .block-text {
+    margin-top: 0px;
+    padding-left: 0; }
+
+/*# sourceMappingURL=style-mobile2.css.map */
